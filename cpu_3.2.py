@@ -256,9 +256,7 @@ def grab_Old_CPU_scrapes(newScrapesDf):
             BrandName = scrapedata[2]
             CompName = scrapedata[1]     
             scrapedate = int(scrapedata[5] + scrapedata[6] + scrapedata[4])# datetime.strptime(scrapedata[5] + '/' + scrapedata[6] + '/' + scrapedata[4], "%M/%d/%Y").date() 
-            
     print(newScrapesDf)
-
     return newScrapesDf
 
 def low_profit_check (row):
